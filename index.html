@@ -1,530 +1,755 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <link rel="icon" type="image/x-icon" href="images/favicon.png"> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
     <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet"> 
-      <!--  Font Awesome css   -->
-      <link rel="stylesheet" href="css/all.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--  Font Awesome css   -->
+    <link rel="stylesheet" href="css/all.min.css" />
     <!-- custom css   -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!--    CSS for responsive-->
-    <link rel="stylesheet" href="css/responsive.css">
-     
-      <title>SafeSave Services Thrift Management Solution</title>
-</head>
+    <link rel="stylesheet" href="css/responsive.css" />
 
-<body>  
- 
+    <title>SafeSave Services Thrift Management Solution</title>
+  </head>
+
+  <body>
     <!-- Preloader -->
     <div id="preloader">
-        <div id="status"> </div>
+      <div id="status"> </div>
     </div>
 
-<!--   header start -->
+    <!--   header start -->
     <nav id="navbar" class="navbar nav navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo-white" src="images/cover.png" alt />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class=" ">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link scroll" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#roadmap">Road Map</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#team">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#contact">Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--   header end -->
+
+    <!--slider area start -->
+    <section class="slider-area" id="home">
+      <div class="slider-content">
         <div class="container">
-            <a class="navbar-brand" href="#">
-            <img class="logo-white" src="images/cover.png" alt> 
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class=" "> 
-                    <i class="fa-solid fa-bars"></i>
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link scroll" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#about">About Us</a>
-                    </li> 
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#roadmap">Road Map</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#team">Our Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#faq">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#contact">Contact </a>
-                    </li>
-                </ul> 
-            </div>
-        </div>
-    </nav> 
-<!--   header end -->
-
-<!--slider area start -->
-<section class="slider-area" id="home"> 
-<div class="slider-content">
-<div class="container">
-    <div class="row">  
-        <div class="col-lg-6 my-auto">
-            <div class="pe-5"> 
-             <h1>Save, Invest and contribute with <span class="theme-color">  Safe Save Services </span></h1>
-             <p class="lh-lg my-4">SafeSave allows customers to set up regular savings deposits into their account. 
-                This can help people build up an emergency fund, save for a specific goal, or simply get into the habit of saving regularly.</p>
-                <a href="https://app.safesaveservices.com" class="btn-main"> Join Now </a>
-             </div>
-         </div>
-        <div class="col-lg-6 mt-5 mt-sm-0">
-            <img src="images/Finance.svg" class="img-fluid" alt>
-        </div>
-    </div>
-</div>
-</div>
-
-</section>
-<!--slider area end -->
-  
-<!--    section start -->
-    <div class="container py-5" id="about">
-        <div class="row">  
-            <div class="col-lg-6 mb-5 mb-sm-0">
-                <img src="images/piggy.svg" class="img-fluid" alt>
-            </div>
+          <div class="row">
             <div class="col-lg-6 my-auto">
-                <div class="pe-5"> 
-                    <h1>The Exchange <span class="theme-color">  You Can Count On </span></h1>
-                    <p class="lh-lg my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis id voluptatibus provident aspernatur, suscipit quam exercitationem et 
-                        harum assumenda cumque recusandae pariatur veniam labore sed culpa ducimus ab. Animi et dolor nostrum quam, maxime sit tenetur, cum, distinctio officiis autem totam, nihil iure.
-                         Unde est culpa nulla assumenda, in laborum.</p>
-                     
-                     <div>
-                         <div class="row mt-5">
-                             <div class="col-4">
-                                 <p class="h3 theme-color">96M+ </p>
-                                 <p>Wallets</p>
-                             </div>
-                             <div class="col-4">
-                                 <p class="h3 theme-color">$300B+ </p>
-                                 <p>Transactions  </p>
-                             </div>
-                             <div class="col-4">
-                                 <p class="h3 theme-color">150 </p>
-                                 <p>Countries  </p>
-                             </div>
-                         </div>
-                     </div>
-                </div>
-            </div> 
-        </div>
-    </div>
-<!--    section end -->
-
-<!--    section start -->
-    <div class="container py-5">
-        <div class="row">   
-            <div class="col-lg-6 my-auto">
-                <div class="pe-5"> 
-                    <h1>Why use <span class="theme-color">  SafeSave  </span>?</h1>
-                    <p class="lh-lg my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis id voluptatibus provident aspernatur, suscipit quam exercitationem et harum assumenda cumque recusandae pariatur veniam labore sed culpa ducimus ab. Animi et dolor nostrum quam, maxime sit tenetur, cum, distinctio officiis autem totam, nihil iure. Unde est culpa nulla assumenda, in laborum.</p>
-                    <p class="lh-lg my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis id voluptatibus provident aspernatur, suscipit quam exercitationem et harum assumenda cumque recusandae pariatur veniam labore sed culpa ducimus ab. Animi et dolor nostrum quam, maxime sit tenetur, in laborum.</p>  
-                </div>
-            </div> 
-            <div class="col-lg-3 col-6">
-                <img src="images/screen.png" style="width:300px" class="img-fluid" alt>
-                </div>
-                <div class="col-lg-3 col-6">
-                    <img src="images/thrift.png" style="width:300px" class="img-fluid" alt>
-                    </div>
-        </div>
-    </div>
-<!--    section end -->
-
-<!--    section start -->
-<div class="container py-5">
-    <div class="row">
-        <div class="col-lg-6 mx-auto text-center">
-            <h1>The Future of Finance Starts with <span class="theme-color"> Edward </span> </h1>
-        </div>
-    </div>
-    <div class="row mt-5">
-        <div class="col-lg-4 my-2 my-sm-0">
-            <div class="e-card">
-               <div class="icon-box"> 
-                <i class="fa-solid fa-chart-simple"></i>
-                </div>
-                <p class="h4">01. YOUR TITLE HERE </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita accusamus molestiae laborum, ipsa rerum facilis.</p>
+              <div class="pe-5">
+                <h1>
+                  Save, Invest and contribute with
+                  <span class="theme-color"> Safe Save Services </span>
+                </h1>
+                <p class="lh-lg my-4">
+                  SafeSave allows customers to set up regular savings deposits
+                  into their account. This can help people build up an emergency
+                  fund, save for a specific goal, or simply get into the habit
+                  of saving regularly.
+                </p>
+                <a href="https://app.safesaveservices.com" class="btn-main">
+                  Join Now
+                </a>
+              </div>
             </div>
-        </div>
-        <div class="col-lg-4 my-2 my-sm-0">
-            <div class="e-card">
-               <div class="icon-box"> 
-                <i class="fa-solid fa-chart-simple"></i>
-                </div>
-                <p class="h4">02. YOUR TITLE HERE </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita accusamus molestiae laborum, ipsa rerum facilis.</p>
+            <div class="col-lg-6 mt-5 mt-sm-0">
+              <img src="images/Finance.svg" class="img-fluid" alt />
             </div>
+          </div>
         </div>
-        <div class="col-lg-4 my-2 my-sm-0">
-            <div class="e-card">
-               <div class="icon-box"> 
-                <i class="fa-solid fa-chart-simple"></i>
-                </div>
-                <p class="h4">03. YOUR TITLE HERE </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita accusamus molestiae laborum, ipsa rerum facilis.</p>
-            </div>
-        </div>
-    </div>
-</div>
-<!--    section end -->
-
-<!--    section start -->
-    <section class="bg" id="roadmap"> 
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-6 mx-auto text-center">
-                <h1>  <span class="theme-color"> Road Map </span> </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi animi hic ratione impedit qui itaque ducimus laudantium accusamus sed et.</p>
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-lg-8 col-md-12 mx-auto">
-                <div class="timeline_wrap">
-                    <div class="timeline_block">
-                        <div class="timeline_icon tm_complete">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="timeline_content ">
-                            <span class="tm_date">Aprile 2022</span>
-                            <h4>Inotial Coin Distribution & maketing</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quas.</p>
-                        </div>
-                    </div>
-                    <div class="timeline_block">
-                        <div class="timeline_icon tm_complete">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="timeline_content ">
-                            <span class="tm_date">February 2022</span>
-                            <h4>Exchange BCT to Bitcoin</h4>
-                            <p>Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos.</p>
-                        </div>
-                    </div>
-                    <div class="timeline_block">
-                        <div class="timeline_icon tm_complete">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="timeline_content ">
-                            <span class="tm_date">March 2022</span>
-                            <h4>BCT mode of payment in Crypto</h4>
-                            <p>Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde.</p>
-                        </div>
-                    </div>
-                    <div class="timeline_block">
-                        <div class="timeline_icon tm_complete">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="timeline_content ">
-                            <span class="tm_date">June 2022</span>
-                            <h4>Send-Receive coin mobile</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quas.</p>
-                        </div>
-                    </div>
-                    <div class="timeline_block">
-                        <div class="timeline_icon tm_complete">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="timeline_content ">
-                            <span class="tm_date">December 2022</span>
-                            <h4>Deposit Bitcoin from your account</h4>
-                            <p>Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      </div>
     </section>
-<!--    section end -->
+    <!--slider area end -->
 
- 
     <!--    section start -->
-    <div class="container py-5">
-        <div class="row">   
-            <div class="col-lg-6 my-auto">
-                <div class="pe-5"> 
-                    <h1> Download Our App to Stay Connected to Your <span class="theme-color"> Crypto Wallet   & Investments
-                        </span></h1>
-                    <p class="lh-lg my-4 h5"> <i> Download NOW & get a sign up Discount </i></p>
-                    
-                    <a href="#!" class="btn-main"> <i class="fa-brands fa-android"></i>   ANDROID OS </a>
-                    <a href="#!" class="btn-main ms-3"> <i class="fa-brands fa-apple"></i>   IOS OS </a> 
-                </div>
-            </div> 
-            <div class="col-lg-6 text-center mt-5 mt-sm-0">
-                <img src="images/mobile.jpg" class="img-fluid" alt>
-            </div>
+    <div class="container py-5" id="about">
+      <div class="row">
+        <div class="col-lg-6 mb-5 mb-sm-0">
+          <img src="images/piggy.svg" class="img-fluid" alt />
         </div>
+        <div class="col-lg-6 my-auto">
+          <div class="pe-5">
+            <h1>
+                Convenience  <span class="theme-color">  Redefined</span>
+            </h1>
+            <p class="lh-lg my-4">
+                Say goodbye to the hassle of traditional saving methods.
+                 With SafeSaveServices, you can manage your savings and withdrawals 
+                 from the comfort of your home or office. Our user-friendly interface
+                  ensures a hassle-free experience,
+                 allowing you to focus on what matters most – your financial goals.
+            </p>
+
+            <div>
+              <div class="row mt-5">
+                <div class="col-4">
+                  <p class="h3 theme-color">100+</p>
+                  <p>Wallets</p>
+                </div>
+                <div class="col-4">
+                  <p class="h3 theme-color">₦300M+</p>
+                  <p>Transactions</p>
+                </div>
+                <div class="col-4">
+                  <p class="h3 theme-color">50</p>
+                  <p>Thrifts</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!--    section end -->
 
+    <!--    section start -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6 my-auto">
+          <div class="pe-5">
+            <h1>Why use <span class="theme-color"> SafeSave </span>?</h1>
+            <h2>
+                Heritage meets  <span class="theme-color">  Innovation</span>
+            </h2>
+            <p class="lh-lg my-4">
+                We honor the time-tested traditions of Ajo and Esusu while
+                 leveraging modern technology to provide you with a secure and efficient thrift app.
+            </p>
+            <h2>
+                Financial <span class="theme-color">  Empowerment</span>
+            </h2>
+            <p class="lh-lg my-4">
+                SafeSaveServices is more than just a platform; it's a movement towards financial empowerment. 
+                Take control of your money and build a brighter future for yourself and your community.
+            </p>
+            <h2>
+                Customer-Centric <span class="theme-color">  Approach</span>
+            </h2>
+            <p class="lh-lg my-4">
+                Our customer support team is dedicated to assisting you every step of the way. 
+                Have a question or concern? We're here for you.
+            </p>
+
+            <p class="lh-lg my-4">
+                Join the SafeSaveServices community today and embark on a journey of financial empowerment.
+                Save, withdraw in bulk, and build a secure financial future with us. Together, we redefine the way Nigeria saves!
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <img
+            src="images/screen.png"
+            style="width: 300px"
+            class="img-fluid"
+            alt
+          />
+        </div>
+        <div class="col-lg-3 col-6">
+          <img
+            src="images/thrift.png"
+            style="width: 300px"
+            class="img-fluid"
+            alt
+          />
+        </div>
+      </div>
+    </div>
+    <!--    section end -->
+
+    <!--    section start -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6 mx-auto text-center">
+          <h1>
+            The Future of Finance Starts with
+            <span class="theme-color"> Edward </span>
+          </h1>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-4 my-2 my-sm-0">
+          <div class="e-card">
+            <div class="icon-box">
+              <i class="fa-solid fa-chart-simple"></i>
+            </div>
+            <p class="h4">01. YOUR TITLE HERE</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
+              accusamus molestiae laborum, ipsa rerum facilis.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 my-2 my-sm-0">
+          <div class="e-card">
+            <div class="icon-box">
+              <i class="fa-solid fa-chart-simple"></i>
+            </div>
+            <p class="h4">02. YOUR TITLE HERE</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
+              accusamus molestiae laborum, ipsa rerum facilis.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 my-2 my-sm-0">
+          <div class="e-card">
+            <div class="icon-box">
+              <i class="fa-solid fa-chart-simple"></i>
+            </div>
+            <p class="h4">03. YOUR TITLE HERE</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
+              accusamus molestiae laborum, ipsa rerum facilis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--    section end -->
+
+    <!--    section start -->
+    <section class="bg" id="roadmap">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6 mx-auto text-center">
+            <h1><span class="theme-color"> Road Map </span></h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+              animi hic ratione impedit qui itaque ducimus laudantium accusamus
+              sed et.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-8 col-md-12 mx-auto">
+            <div class="timeline_wrap">
+              <div class="timeline_block">
+                <div class="timeline_icon tm_complete">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="timeline_content">
+                  <span class="tm_date">Aprile 2022</span>
+                  <h4>Inotial Coin Distribution & maketing</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Iusto, optio, dolorum provident rerum aut hic quas.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline_block">
+                <div class="timeline_icon tm_complete">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="timeline_content">
+                  <span class="tm_date">February 2022</span>
+                  <h4>Exchange BCT to Bitcoin</h4>
+                  <p>
+                    Odit, itaque, deserunt corporis vero ipsum nisi eius odio
+                    natus ullam provident pariatur temporibus quia eos.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline_block">
+                <div class="timeline_icon tm_complete">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="timeline_content">
+                  <span class="tm_date">March 2022</span>
+                  <h4>BCT mode of payment in Crypto</h4>
+                  <p>
+                    Iusto, optio, dolorum provident rerum aut hic quasi placeat
+                    iure tempora laudantium ipsa ad debitis unde.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline_block">
+                <div class="timeline_icon tm_complete">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="timeline_content">
+                  <span class="tm_date">June 2022</span>
+                  <h4>Send-Receive coin mobile</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Iusto, optio, dolorum provident rerum aut hic quas.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline_block">
+                <div class="timeline_icon tm_complete">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="timeline_content">
+                  <span class="tm_date">December 2022</span>
+                  <h4>Deposit Bitcoin from your account</h4>
+                  <p>
+                    Odit, itaque, deserunt corporis vero ipsum nisi eius odio
+                    natus ullam provident pariatur temporibus quia eos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--    section end -->
+
+    <!--    section start -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6 my-auto">
+          <div class="pe-5">
+            <h1>
+              Download Our App to Stay Connected to Your
+              <span class="theme-color"> Crypto Wallet & Investments </span>
+            </h1>
+            <p class="lh-lg my-4 h5">
+              <i> Download NOW & get a sign up Discount </i>
+            </p>
+
+            <a href="#!" class="btn-main">
+              <i class="fa-brands fa-android"></i>   ANDROID OS
+            </a>
+            <a href="#!" class="btn-main ms-3">
+              <i class="fa-brands fa-apple"></i>   IOS OS
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center mt-5 mt-sm-0">
+          <img src="images/mobile.jpg" class="img-fluid" alt />
+        </div>
+      </div>
+    </div>
+    <!--    section end -->
 
     <!--    section start -->
     <div class="container py-5" id="team">
-        <div class="row">
-            <div class="col-lg-6 mx-auto text-center">
-                <h1>Meet <span class="theme-color"> Our Team  </span> </h1>
-            </div>
+      <div class="row">
+        <div class="col-lg-6 mx-auto text-center">
+          <h1>Meet <span class="theme-color"> Our Team </span></h1>
         </div>
-        <div class="row mt-5">
+      </div>
+      <div class="row mt-5">
         <div class="col-lg-3 my-4 my-sm-0">
-            <div class="shadow">
-                <img src="images/1.jpg" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Belinda Sharp </h5>
-                    <p class="card-text mb-0">CSO & Head of Markets </p> 
-                </div>
+          <div class="shadow">
+            <img src="images/1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Belinda Sharp</h5>
+              <p class="card-text mb-0">CSO & Head of Markets</p>
             </div>
-        </div>
-        <div class="col-lg-3 my-4 my-sm-0">
-            <div class="shadow">
-                <img src="images/2.jpg" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Dennis Gray </h5>
-                    <p class="card-text mb-0">CFO</p> 
-                </div>
-            </div>
+          </div>
         </div>
         <div class="col-lg-3 my-4 my-sm-0">
-            <div class="shadow">
-                <img src="images/3.jpg" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Natasha Lee </h5>
-                    <p class="card-text mb-0">CTO</p> 
-                </div>
+          <div class="shadow">
+            <img src="images/2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Dennis Gray</h5>
+              <p class="card-text mb-0">CFO</p>
             </div>
+          </div>
         </div>
         <div class="col-lg-3 my-4 my-sm-0">
-            <div class="shadow">
-                <img src="images/4.jpg" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">William Moore </h5>
-                    <p class="card-text mb-0">VP Data Science  </p> 
-                </div>
+          <div class="shadow">
+            <img src="images/3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Natasha Lee</h5>
+              <p class="card-text mb-0">CTO</p>
             </div>
+          </div>
         </div>
+        <div class="col-lg-3 my-4 my-sm-0">
+          <div class="shadow">
+            <img src="images/4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">William Moore</h5>
+              <p class="card-text mb-0">VP Data Science</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-            <!--    section end -->
-            
+    <!--    section end -->
+
     <!--    section start -->
     <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-6 mx-auto text-center">
-                <h1>Our <span class="theme-color"> Partners </span> </h1>
-            </div>
+      <div class="row">
+        <div class="col-lg-6 mx-auto text-center">
+          <h1>Our <span class="theme-color"> Partners </span></h1>
         </div>
-        <div class="row mt-5 text-center">
+      </div>
+      <div class="row mt-5 text-center">
         <div class="col-lg-2">
-            <img src="images/1.png" alt>
-        </div>
-        <div class="col-lg-2">
-            <img src="images/2.png" alt>
+          <img src="images/1.png" alt />
         </div>
         <div class="col-lg-2">
-            <img src="images/3.png" alt>
+          <img src="images/2.png" alt />
         </div>
         <div class="col-lg-2">
-            <img src="images/4.png" alt>
+          <img src="images/3.png" alt />
         </div>
         <div class="col-lg-2">
-            <img src="images/5.png" alt>
+          <img src="images/4.png" alt />
         </div>
         <div class="col-lg-2">
-            <img src="images/6.png" alt>
+          <img src="images/5.png" alt />
         </div>
+        <div class="col-lg-2">
+          <img src="images/6.png" alt />
         </div>
+      </div>
     </div>
-       
+
     <!--    section end -->
-        
+
     <!--    section start -->
-    
+
     <section id="faq" class="py-5 my-5">
-        <div class="container"> 
-            <div class="row">
-                <div class="col-lg-6 mx-auto text-center">
-                    <h1>  Frequently Asked Questions  </h1>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-10 mx-auto"> 
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    What is a single application?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style>
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga incidunt animi ipsum iure voluptatum eveniet praesentium, id, molestiae totam tempore reprehenderit labore adipisci architecto laudantium dolores. Provident nostrum at corporis!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    What does non-exclusive mean?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style>
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, consequatur. At qui nemo eaque provident molestias, quis magni odio nihil, eos vero tempora quaerat hic nostrum vitae, nisi ad maiores harum rerum quam quisquam reiciendis culpa! Repellat nemo, ad praesentium.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Am I allowed to modify the item that I purchased?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style>
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus unde a recusandae accusantium, asperiores fugiat, enim dignissimos itaque accusamus necessitatibus. Consequuntur minus culpa inventore suscipit id nobis incidunt iusto. Sequi quisquam vel delectus, ea sed saepe quo repellat iure ratione illum laboriosam natus, ad labore quam eius iusto necessitatibus soluta!</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    What are some examples of permitted end products?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloremque consequuntur in ad quaerat, similique eligendi quas placeat, aut tempore. Unde officia quibusdam vel! Atque eius vel voluptatibus quos animi illo ut nemo. Quibusdam odio modi beatae veniam ipsa necessitatibus autem eum expedita, officiis aperiam earum cumque iusto debitis soluta ex nisi provident laboriosam eveniet ipsum consectetur blanditiis illum numquam.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    What do you mean by item and end product?
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus officia, fuga dolor quos asperiores quibusdam sit dolores quam optio repellat consequuntur iure, laboriosam quasi atque, saepe aspernatur ab ex, soluta doloribus. Voluptatum ea nihil fugit eaque architecto cupiditate perspiciatis, ducimus ratione sunt sed laborum incidunt saepe maiores nemo consectetur quos ullam officia, nesciunt fugiat animi quod praesentium. Cum nemo tempore odio sunt quas aliquid maiores. Nihil nemo soluta quisquam rerum.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto text-center">
+            <h1>Frequently Asked Questions</h1>
+          </div>
         </div>
-    </section>  
-   
+        <div class="row mt-5">
+          <div class="col-md-10 mx-auto">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    What is a single application?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                  style
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Fuga incidunt animi ipsum iure voluptatum eveniet
+                      praesentium, id, molestiae totam tempore reprehenderit
+                      labore adipisci architecto laudantium dolores. Provident
+                      nostrum at corporis!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    What does non-exclusive mean?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                  style
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Delectus, consequatur. At qui nemo eaque provident
+                      molestias, quis magni odio nihil, eos vero tempora quaerat
+                      hic nostrum vitae, nisi ad maiores harum rerum quam
+                      quisquam reiciendis culpa! Repellat nemo, ad praesentium.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Am I allowed to modify the item that I purchased?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                  style
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Minus unde a recusandae accusantium, asperiores fugiat,
+                      enim dignissimos itaque accusamus necessitatibus.
+                      Consequuntur minus culpa inventore suscipit id nobis
+                      incidunt iusto. Sequi quisquam vel delectus, ea sed saepe
+                      quo repellat iure ratione illum laboriosam natus, ad
+                      labore quam eius iusto necessitatibus soluta!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    What are some examples of permitted end products?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Alias doloremque consequuntur in ad quaerat, similique
+                      eligendi quas placeat, aut tempore. Unde officia quibusdam
+                      vel! Atque eius vel voluptatibus quos animi illo ut nemo.
+                      Quibusdam odio modi beatae veniam ipsa necessitatibus
+                      autem eum expedita, officiis aperiam earum cumque iusto
+                      debitis soluta ex nisi provident laboriosam eveniet ipsum
+                      consectetur blanditiis illum numquam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    What do you mean by item and end product?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Delectus officia, fuga dolor quos asperiores quibusdam sit
+                      dolores quam optio repellat consequuntur iure, laboriosam
+                      quasi atque, saepe aspernatur ab ex, soluta doloribus.
+                      Voluptatum ea nihil fugit eaque architecto cupiditate
+                      perspiciatis, ducimus ratione sunt sed laborum incidunt
+                      saepe maiores nemo consectetur quos ullam officia,
+                      nesciunt fugiat animi quod praesentium. Cum nemo tempore
+                      odio sunt quas aliquid maiores. Nihil nemo soluta quisquam
+                      rerum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--    section start -->
-   
+
     <!--    contact us area start-->
     <div class="container py-5 my-5" id="contact">
-        <div class="row">
-            <div class="col-lg-6"> 
-                <p class="h1">Get In Touch <br> <span class="theme-color"> With Us </span></p>
-            </div>
-            <div class="col-lg-6 mt-4 mt-sm-0">
-                <p class="h5 a-color">Contact Us </p>
-                <p class="lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae labore saepe, eum magnam necessitatibus qui nihil omnis quibusdam facere corporis ratione minus, architecto, tenetur nobis!</p>
-            </div>
-        </div> 
-        <div class="row pt-5">
-            <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-duration="2000">
-                <div class="e-card"> 
-                    <div class="icon-box mb-4 h1"> 
-                        <i class="fa-solid fa-phone"></i>
-                    </div> 
-                    <h5 class="mb-4">Contact Phone Number</h5>
-                    <p>+62 8912-3478-9765</p>
-                    <p class="mb-0">+62 8210-7897-000</p>
-                </div>
-            </div>
-            <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-duration="1500">
-                <div class="e-card">
-                    <div class="icon-box mb-4 h1">  <i class="fa-solid fa-envelope"></i> </div>
-                    <h5 class="mb-4">Our Email Addres</h5>
-                    <p>example@sample.com</p>
-                    <p class="mb-0">user@example.com</p>
-                </div>
-            </div>
-            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000">
-                <div class="e-card">
-                    <div class="icon-box mb-4 h1"> <i class="fa-solid fa-location-dot"></i> </div>
-                    <h5 class="mb-4">Our Location </h5>
-                    <p>Dhaka, Bangladesh</p>
-                    <p class="mb-0">Rajshahi, Bangladesh</p>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="h1">
+            Get In Touch <br />
+            <span class="theme-color"> With Us </span>
+          </p>
         </div>
-    </div>    
-    <!--    contact us area end-->  
- 
-    <!--        footer area start -->
-    <section class="footer"> 
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="pe-4">  
-                        <img class="logo-dark img-fluid w-50" src="images/cover.png" alt>  
-                        <p class="mt-4 text-start">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididuntlorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Telorem Ipsum Dolor Sit Amet, </p>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 col-6 mt-5">
-                    <h4 class="mb-4"> COMMUNITY </h4>
-                    <p> <a href="#">Telegram</a></p>
-                    <p> <a href="#"> Discord</a></p>
-                </div>
-                <div class="col-lg-2 col-md-6 col-6 mt-5">
-                    <h4 class="mb-4"> SOCIAL </h4>
-                    <p> <a href="#">Twitter </a></p>
-                    <p> <a href="#"> Instagram </a></p>
-                    <p> <a href="#"> Reddit </a></p>
-                </div>
-                <div class="col-lg-2 col-md-6 col-6 mt-5">
-                    <h4 class="mb-4"> RESOURCES </h4>
-                    <p> <a href="#">Contract </a></p>
-                    <p> <a href="#"> Whitepaper </a></p>
-                    <p> <a href="#"> Live Chart </a></p>
-                </div>
-                <div class="col-lg-2 col-md-6 col-6 mt-5">
-                    <h4 class="mb-4"> Contat Info </h4>
-                    <p> <a href="#">Dhaka, Bangladesh </a></p>
-                    <p> <a href="#"> +800 007 506 554 </a></p>
-                    <p> <a href="#"> example@gmail.com </a></p>
-                </div>
+        <div class="col-lg-6 mt-4 mt-sm-0">
+          <p class="h5 a-color">Contact Us</p>
+          <p class="lh-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+            labore saepe, eum magnam necessitatibus qui nihil omnis quibusdam
+            facere corporis ratione minus, architecto, tenetur nobis!
+          </p>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div
+          class="col-lg-4 mb-5 mb-lg-0"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="e-card">
+            <div class="icon-box mb-4 h1">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <h5 class="mb-4">Contact Phone Number</h5>
+            <p>+62 8912-3478-9765</p>
+            <p class="mb-0">+62 8210-7897-000</p>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 mb-5 mb-lg-0"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          <div class="e-card">
+            <div class="icon-box mb-4 h1">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <h5 class="mb-4">Our Email Addres</h5>
+            <p>example@sample.com</p>
+            <p class="mb-0">user@example.com</p>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="e-card">
+            <div class="icon-box mb-4 h1">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h5 class="mb-4">Our Location</h5>
+            <p>Dhaka, Bangladesh</p>
+            <p class="mb-0">Rajshahi, Bangladesh</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--    contact us area end-->
 
-                <div class="col-md-12 py-3">
-                    <hr class="hr">
-                </div>
-                <div class="col-md-12 text-center">
-                    <p class="small pb-0 mb-0">Copyright © 2023 Safe Save services</p>
-                </div>
+    <!--        footer area start -->
+    <section class="footer">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="pe-4">
+              <img
+                class="logo-dark img-fluid w-50"
+                src="images/cover.png"
+                alt
+              />
+              <p class="mt-4 text-start">
+                Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do
+                Eiusmod Tempor Incididuntlorem Ipsum Dolor Sit Amet, Consectetur
+                Adipiscing Elit, Sed Do Eiusmod Telorem Ipsum Dolor Sit Amet,
+              </p>
             </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-6 mt-5">
+            <h4 class="mb-4">COMMUNITY</h4>
+            <p><a href="#">Telegram</a></p>
+            <p><a href="#"> Discord</a></p>
+          </div>
+          <div class="col-lg-2 col-md-6 col-6 mt-5">
+            <h4 class="mb-4">SOCIAL</h4>
+            <p><a href="#">Twitter </a></p>
+            <p><a href="#"> Instagram </a></p>
+            <p><a href="#"> Reddit </a></p>
+          </div>
+          <div class="col-lg-2 col-md-6 col-6 mt-5">
+            <h4 class="mb-4">RESOURCES</h4>
+            <p><a href="#">Contract </a></p>
+            <p><a href="#"> Whitepaper </a></p>
+            <p><a href="#"> Live Chart </a></p>
+          </div>
+          <div class="col-lg-2 col-md-6 col-6 mt-5">
+            <h4 class="mb-4">Contat Info</h4>
+            <p><a href="#">Dhaka, Bangladesh </a></p>
+            <p><a href="#"> +800 007 506 554 </a></p>
+            <p><a href="#"> example@gmail.com </a></p>
+          </div>
+
+          <div class="col-md-12 py-3">
+            <hr class="hr" />
+          </div>
+          <div class="col-md-12 text-center">
+            <p class="small pb-0 mb-0">Copyright © 2023 Safe Save services</p>
+          </div>
         </div>
-    </section>     
+      </div>
+    </section>
     <!--        footer area end -->
 
     <div class="go-top active">
-        <i class="fa-solid fa-arrow-up-long"></i> 
+      <i class="fa-solid fa-arrow-up-long"></i>
     </div>
-        
-    <script src="js/jquery.min.js"></script>  
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="js/bootstrap.bundle.min.js"></script> 
-    <!--  Custom js   -->  
-    <script src="js/script.js"></script>
 
-</body></html>
+    <script src="js/jquery.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--  Custom js   -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
